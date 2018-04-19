@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <div class="reg reg_mod">
+                    <div class="reg__form">
+                        <div class="request">
+                            <form class="request__form">
+                                <div class="field">
+                                    <h2 class="field__title">личные данные</h2>
+                                    <div class="field__wrap">
+                                        <input class="field__type field__name" type="text" name="name" id="name" required>
+                                        <label class="field__placeholder" for="name">Имя</label>
+                                    </div>
+                                    <div class="field__wrap">
+                                        <input class="field__type field__email" type="email" name="email" id="mail" required>
+                                        <label class="field__placeholder" for="mail">Электронная почта</label>
+                                    </div>
+                                </div>
+                                <div class="field field_radio">
+                                    <h2 class="field__title">тип аккаунта</h2>
+                                    <div class="field__wrap">
+                                        <input class="field__radio" name="radio" type="radio" id="field__radio-n" checked>
+                                        <label class="field__label" for="field__radio-n">
+                                            <span class="field__text-radio">Вебмастер</span><br>
+                                            <span class="field__text-radio_m">Для Вебмастера система предлагает широкий инструмент продажи трафика.</span><br>
+                                        </label>
+                                        <input class="field__radio" name="radio" type="radio" id="field__radio-m">
+                                        <label class="field__label" for="field__radio-m">
+                                            <span class="field__text-radio">Владелец ICO</span><br>
+                                            <span class="field__text-radio_m">Для ICO система предлагает эффективное продвижение путем баннерной рекламы. Умные баннеры и прозрачная статистика.</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <button class="btn btn_reg" type="submit">
+                                    <span class="btn__text">зарегистрироваться</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
