@@ -31,6 +31,8 @@ body {
   font-size: 0.8125rem;
   font-weight: 400;
   display: block; }
+  .entry__link:active {
+    transform: translate(0rem, 0.0625rem); }
   .entry__link:last-child {
     margin-top: 1.375rem; }
 .entry__user {
@@ -258,6 +260,8 @@ body {
     font-weight: 700;
     text-decoration: none;
     color: #999999; }
+    .confirm__link:active {
+      transform: translate(0rem, 0.0625rem); }
 
 .btn {
   display: inline-flex;
