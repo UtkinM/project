@@ -19,12 +19,10 @@ body {
   text-align: center; }
 
 .entry_mod {
-  width: 28.125rem;
-  height: 26.875rem; }
+  padding: 0 6.125rem 3.25rem 6.125rem; }
   @media screen and (max-width: 30rem) {
     .entry_mod {
-      width: 16.875rem;
-      height: 23.125rem; } }
+      padding: 0.3125rem 2.5rem 3.75rem 2.5rem; } }
 .entry__form {
   max-width: 26.875rem; }
 .entry__link {
@@ -44,10 +42,10 @@ body {
   margin-bottom: 0.3125rem;
   letter-spacing: -0.5px; }
 .entry .field__placeholder {
-  left: 6.25rem; }
+  left: 0.5rem; }
   @media screen and (max-width: 30rem) {
     .entry .field__placeholder {
-      left: 2.375rem; } }
+      left: 0.5rem; } }
 .entry .field__type {
   width: 13.75rem; }
   @media screen and (max-width: 30rem) {
@@ -76,8 +74,8 @@ body {
     content: "";
     display: inline-block;
     position: absolute;
-    top: 0.3125rem;
-    left: -4px;
+    top: 0.1875rem;
+    left: 0;
     width: 0.75rem;
     height: 0.75rem;
     background-color: #ffffff;
@@ -92,7 +90,7 @@ body {
   font-size: 0.8125rem;
   font-weight: 400;
   color: #272727;
-  margin-left: 1rem; }
+  margin-left: 1.25rem; }
 .field__type {
   position: relative;
   padding: 0.625rem;
@@ -113,9 +111,7 @@ body {
   pointer-events: none;
   left: 6.375rem;
   top: 1rem;
-  transition: 0.2s ease all;
-  -moz-transition: 0.2s ease all;
-  -webkit-transition: 0.2s ease all; }
+  transition: 0.2s ease all; }
   .field__placeholder:focus {
     outline: none; }
 
@@ -163,7 +159,7 @@ body {
     font-weight: 400;
     color: #272727;
     display: inline-block; }
-  .reg .field__text-radio_m {
+  .reg .field__text-radio_small {
     font-size: 0.75rem;
     color: #999999;
     display: block;
@@ -171,7 +167,7 @@ body {
     margin-left: 1.4375rem;
     margin-top: 0.3125rem;
     margin-bottom: 0.8125rem; }
-    .reg .field__text-radio_m:last-child {
+    .reg .field__text-radio_small:last-child {
       max-width: 25rem; }
   .reg .field__wrap input[type="radio"] {
     position: absolute;
@@ -281,11 +277,11 @@ body {
     padding: 0.625rem 1.6875rem 0rem 1.6875rem;
     width: 6.875rem; }
   .btn_reg {
+    width: 12.875rem;
     height: 2.625rem;
     padding: 0.8125rem;
     padding-right: 0.875rem;
     margin-top: 0.3125rem;
-    width: 12.875rem;
     float: right; }
     @media screen and (max-width: 47.9375rem) {
       .btn_reg {
