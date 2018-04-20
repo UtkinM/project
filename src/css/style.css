@@ -44,10 +44,7 @@ body {
   margin-bottom: 0.3125rem;
   letter-spacing: -0.5px; }
 .entry .field__placeholder {
-  left: 0.5rem; }
-  @media screen and (max-width: 30rem) {
-    .entry .field__placeholder {
-      left: 0.5rem; } }
+  left: 0.75rem; }
 .entry .field__type {
   width: 13.75rem;
   outline: none; }
