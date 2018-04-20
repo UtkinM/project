@@ -54,6 +54,7 @@ body
 
     & .field__type
         width: rem(220)
+        outline: none
 
         +below(rem($phones))
             width: rem(200)
@@ -116,6 +117,7 @@ body
         height: rem(28)
         border-radius: 5px
         border: 1px solid $border
+        outline: none
         margin: 0 auto
 
         &:focus ~ label,
@@ -164,6 +166,7 @@ body
 
         &__type
             width: rem(202)
+            outline: none
 
         &__wrap
             margin: 0
@@ -323,7 +326,12 @@ body
     align-items: center
     border-radius: rem(5)
     border: none
+    outline: none
     box-shadow: 0 12px 16px rgba(30, 20, 108, 0.1)
+
+    &:active
+        transform: translate(rem(0), rem(2))
+        box-shadow: none
 
     &_entry
         width: rem(110)
